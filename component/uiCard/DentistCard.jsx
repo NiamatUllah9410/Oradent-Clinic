@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const DentistCard = ({ name, qualifications, image }) => {
   return (
-    <div className="bg-white shadow-lg rounded overflow-hidden flex flex-col justify-between relative">
+    <div data-aos="fade-up" className="bg-white shadow-lg rounded overflow-hidden flex flex-col justify-between relative">
       <div className="relative w-full h-92 min-h-[320px]">
         <Image
           src={image}

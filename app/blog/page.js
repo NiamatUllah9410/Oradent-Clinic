@@ -1,7 +1,9 @@
 import BlogMain from '@/component/BlogMain';
 import BlogListing from '@/component/blogs/BlogListing';
+import CallButton from '@/component/CallButton';
 import BlogsData from '@/component/data/blogs';
 import Faq from '@/component/Faq';
+import WhatsappButton from '@/component/Whatsapp';
 
 export default function BlogPage() {
   return (
@@ -11,6 +13,8 @@ export default function BlogPage() {
       <BlogMain/>
       <Faq/>
       <BlogListing blogs={BlogsData} />
+       <WhatsappButton/>
+      <CallButton/>
     </div>
     </div>
   );

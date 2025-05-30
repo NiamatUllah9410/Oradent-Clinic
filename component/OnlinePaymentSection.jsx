@@ -27,7 +27,7 @@ const paymentImages = [
 
 const OnlinePaymentSection = () => {
   return (
-    <div className="z-40 pt-5 w-full absolute top-[-220px] sm:top-[-160px] md:top-[-170px] lg:top-[-130px]">
+    <div data-aos="fade-up" className="z-40 pt-5 w-full absolute top-[-220px] sm:top-[-160px] md:top-[-170px] lg:top-[-130px]">
       <div className=" max-w-[1400px] lg:max-w-[1310px] mx-auto px-4 bg-[#075791]">
         <div className="p-12 rounded-md">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">

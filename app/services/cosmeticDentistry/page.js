@@ -1,6 +1,8 @@
 import AppointmentSection from '@/component/AppointmentSection'
+import CallButton from '@/component/CallButton'
 import CosmeticDentistry from '@/component/CosmeticDentistryFeature'
 import CosmeticDentistrySection from '@/component/CosmeticDentistrySection'
+import WhatsappButton from '@/component/Whatsapp'
 import React from 'react'
 
 const page = () => {
@@ -9,6 +11,8 @@ const page = () => {
     <CosmeticDentistrySection/>
     <AppointmentSection/>
       <CosmeticDentistry/>
+      <WhatsappButton/>
+      <CallButton/>
     </>
   )
 }

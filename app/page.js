@@ -10,6 +10,8 @@ import BlogSection from '@/component/BolgSection';
 import DentistTeam from '@/component/DentistTeam';
 import Testimonial from '@/component/Testimonial';
 import DentalServices from '@/component/DentalServices';
+import WhatsappButton from '@/component/Whatsapp';
+import CallButton from '@/component/CallButton';
 
 export default function Home() {
   return (
@@ -43,6 +45,8 @@ export default function Home() {
       <Testimonial />
       <SocialReviewsSection />
       <DentistTeam />
+      <WhatsappButton/>
+      <CallButton/>
       <BlogSection />
     </>
   );

@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 const BlogCard = ({ href, imgSrc, title, description }) => {
   return (
-    <div className="bg-gray-50 border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow">
+    <div data-aos="fade-up" className="bg-gray-50 border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow">
       <a href={href} className="block">
         <img src={imgSrc} alt={title} className="w-full h-52 object-cover rounded-t-lg" />
         <div className="p-4">
@@ -70,9 +70,9 @@ const BlogSection = () => {
       <div className="container w-full  max-w-[1400px] lg:max-w-[1337px] mx-auto px-4">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
-          <div className="max-w-2xl text-center md:text-left">
+          <div data-aos="fade-up" className="max-w-2xl text-center md:text-left">
             <h2 className="text-[2rem] md:text-[2.5rem] font-bold text-jost text-[#075791] mb-4">Our Blogs</h2>
-            <p className="text-gray-600 font-openSans">
+            <p  className="text-gray-600 font-openSans">
               Find out more on how the best dental clinic in Islamabad, Oradent Dental Clinic, provides insights on dental procedures and care. Check our blogs for more valuable guidance.
             </p>
           </div>

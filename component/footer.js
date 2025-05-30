@@ -56,7 +56,7 @@ const Footer = () => {
       
 
   return (
-    <div className="w-full bg-[#091e3e] relative mt-[180px] md:mt-[150] lg:mt-[180px]">
+    <div data-aos="fade-up" className="w-full bg-[#091e3e] relative mt-[180px] md:mt-[150] lg:mt-[180px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center w-full mx-auto  max-w-[1400px] px-4 lg:max-w-[1337px] gap-12 py-32">
       {footerLinks.map((column, colIndex) => (
   <div key={colIndex}>

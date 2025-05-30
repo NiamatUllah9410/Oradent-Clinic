@@ -6,7 +6,7 @@ import TopBar from "@/component/navbar/TopBar";
 import Carousel from "@/component/Carousel";
 import CallButton from "@/component/CallButton";
 import WhatsappButton from "@/component/Whatsapp";
-import AOSWrapper from "@/component/AOSWrapper"; 
+import AOSWrapper from "@/component/AOSWrapper";
 
 
 // const geistSans = Geist({
@@ -46,13 +46,11 @@ export default function RootLayout({ children }) {
         className={`${jost.variable} ${openSans.variable} antialiased`}
       >
         <AOSWrapper>
-        <TopBar />
-        <Header />
-        <Carousel />
-        {children}
-        <Footer />
-        {/* <WhatsappButton /> */}
-        <CallButton />
+          <TopBar />
+          <Header />
+          <Carousel />
+          {children}
+          <Footer />
         </AOSWrapper>
 
 
